@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pintureria</title>
+  </head>
+  <body>
+    <main>
+      <h1>¡Bienvenido a PIGMENTS! ¿Que color de pintura deseas comprar?</h1>
+      <h2>Actualmente tenemos disponible solamente tachos de 22 lts</h2>
+
+      <h3>
+        Haz click en "mostrar carrito" para ver tu saldo disponible y las
+        pinturas que agregaste (en consola).
+      </h3>
+      <button onclick="mostrarCarrito()">Mostrar Carrito</button>
+
+      <div>
+        <ul>
+          <li>
+            PINTURA BLANCA: <b>$15.00</b>
+            <button onclick="agregarCarrito(blanco)">Agregar</button>---<button
+              onclick="quitarProductos(blanco)"
+            >
+              Quitar
+            </button>
+          </li>
+          <li>
+            PINTURA ROJA: <b>$20.00</b>
+            <button onclick="agregarCarrito(rojo)">Agregar</button>---<button
+              onclick="quitarProductos(rojo)"
+            >
+              Quitar
+            </button>
+          </li>
+          <li>
+            PINTURA NEGRA: <b>$13.00</b>
+            <button onclick="agregarCarrito(negro)">Agregar</button>---<button
+              onclick="quitarProductos(negro)"
+            >
+              Quitarr
+            </button>
+          </li>
+          <li>
+            PINTURA AZUL: <b>$22.00</b>
+            <button onclick="agregarCarrito(azul)">Agregar</button>---<button
+              onclick="quitarProductos(azul)"
+            >
+              Quitar
+            </button>
+          </li>
+          <li>
+            PINTURA MARRON: <b>$18.00</b>
+            <button onclick="agregarCarrito(marron)">Agregar</button>----<button
+              onclick="quitarProductos(marron)"
+            >
+              Quitar
+            </button>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="entrega2.js"></script>
+  </body>
+</html>
